@@ -1,6 +1,6 @@
 # la_bella
 
-restaurante website
+restaurant website
 
 # Getting Started with Create React App
 
