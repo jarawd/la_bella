@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d75595ce.css",
-    "main.js": "/static/js/main.dc729d49.js",
-    "static/media/logo.png": "/static/media/logo.e06941f36271bd7fa940.png",
-    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.27f62b53b93858475a7f.ttf",
-    "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.d50a80138ec4f2fb5e9f.ttf",
-    "static/media/hero_quesadilla.jpg": "/static/media/hero_quesadilla.ff30c2b3bb534cd3dc3a.jpg",
-    "index.html": "/index.html",
-    "main.d75595ce.css.map": "/static/css/main.d75595ce.css.map",
-    "main.dc729d49.js.map": "/static/js/main.dc729d49.js.map"
+    "main.css": "/la_bella/static/css/main.5b5581c6.css",
+    "main.js": "/la_bella/static/js/main.3be69549.js",
+    "static/media/logo.png": "/la_bella/static/media/logo.e06941f36271bd7fa940.png",
+    "static/media/Roboto-Regular.ttf": "/la_bella/static/media/Roboto-Regular.27f62b53b93858475a7f.ttf",
+    "static/media/Roboto-Bold.ttf": "/la_bella/static/media/Roboto-Bold.d50a80138ec4f2fb5e9f.ttf",
+    "static/media/hero_quesadilla.jpg": "/la_bella/static/media/hero_quesadilla.ff30c2b3bb534cd3dc3a.jpg",
+    "index.html": "/la_bella/index.html",
+    "main.5b5581c6.css.map": "/la_bella/static/css/main.5b5581c6.css.map",
+    "main.3be69549.js.map": "/la_bella/static/js/main.3be69549.js.map"
   },
   "entrypoints": [
-    "static/css/main.d75595ce.css",
-    "static/js/main.dc729d49.js"
+    "static/css/main.5b5581c6.css",
+    "static/js/main.3be69549.js"
   ]
 }
