@@ -19,6 +19,7 @@
   margin: 0;
   margin-top: 200px;
   margin-bottom: 35px;
+  /* text-shadow: 3px 3px 2px #940202; */
 }
 
 .hero__description {
@@ -59,4 +60,27 @@
   background-color: black;
   opacity: .4;
   z-index: -1;
+}
+
+@media screen and (max-width: 835px) {
+  .hero__info {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .hero__title {
+    text-align: center;
+  }
+
+  .hero__description {
+    text-align: justify;
+  }
+
+  .hero__title {
+    margin-top: 150px;
+    margin-bottom: 20px;
+  }
 }

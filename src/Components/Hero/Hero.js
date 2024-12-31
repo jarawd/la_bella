@@ -8,7 +8,7 @@ export default function Hero() {
           Quesadillas La Bella: Las Mejores de la Comarca Lagunera!
         </h1>
         <p className="hero__description">
-          ¡Descubre el sabor de la Comarca Lagunera! Ofrecemos quesadillas con
+          ¡Descubre el sabor de la Comarca Lagunera!, Ofrecemos quesadillas con
           los mejores guisos caseros, preparadas con amor y tradición.
           ¡Visítanos hoy y deleita tu paladar con nuestro sazón único!
         </p>

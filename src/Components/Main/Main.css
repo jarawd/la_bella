@@ -1,0 +1,43 @@
+.content {
+  margin-top: 50px;
+  padding: 0 20px 50px 20px;
+}
+
+.content__orders {
+  display: flex;
+  margin-top: 50px;
+}
+
+.content__orders-title,
+.content__orders-numbers {
+  margin: 0;
+}
+
+.content__location-title,
+.content__orders-title {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.content__orders {
+  display: flex;
+  flex-direction: column;
+}
+
+.content__orders-icon {
+  color: #25D366;
+  font-size: 35px;
+}
+
+.content__orders-numbers {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-style: italic;
+}
+
+.content__orders-item {
+  font-size: 24px;
+  font-weight: bold;
+}
