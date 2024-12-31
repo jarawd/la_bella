@@ -15,7 +15,7 @@ export default function Main() {
     <div className="content">
       <section
         ref={goToProducts}
-        className="content__products"
+        className="products"
       >
         {products.map((item) => (
           <PS1
@@ -28,9 +28,9 @@ export default function Main() {
       </section>
       <section
         ref={goToBranches}
-        className="content__location"
+        className="location"
       >
-        <h2 className="content__location-title">Sucursales</h2>
+        <h2 className="location-title">Sucursales</h2>
         {locations.map((item) => (
           <Branch
             key={item.id}
@@ -41,12 +41,17 @@ export default function Main() {
           />
         ))}
       </section>
-      <section className="content__orders">
-        <h2 className="content__orders-title">Pedidos</h2>
-        <div className="content__orders-numbers">
-          <FaWhatsapp className="content__orders-icon" />
-          <span className="content__orders-item">871 123 45 67,</span>
-          <span className="content__orders-item">871 765 43 21</span>
+      <section className="orders">
+        <h2 className="orders__title">Pedidos</h2>
+        <div className="orders__contact">
+          <p className="orders__number">
+            <FaWhatsapp className="orders__icon" />
+            871 123 45 67
+          </p>
+          <p className="orders__number">
+            <FaWhatsapp className="orders__icon" />
+            871 765 43 21
+          </p>
         </div>
       </section>
     </div>
