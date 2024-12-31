@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/la_bella/static/css/main.b16d564d.css",
-    "main.js": "/la_bella/static/js/main.1abc0ac5.js",
+    "main.css": "/la_bella/static/css/main.9c0f9ee9.css",
+    "main.js": "/la_bella/static/js/main.fd577c11.js",
     "static/media/Q3.jpg": "/la_bella/static/media/Q3.0fe630378f3ab149b92c.jpg",
     "static/media/Q4.jpg": "/la_bella/static/media/Q4.91cc5684a817e8afff4d.jpg",
     "static/media/logo.png": "/la_bella/static/media/logo.e06941f36271bd7fa940.png",
@@ -12,11 +12,11 @@
     "static/media/Roboto-Bold.ttf": "/la_bella/static/media/Roboto-Bold.d50a80138ec4f2fb5e9f.ttf",
     "static/media/hero_quesadilla.jpg": "/la_bella/static/media/hero_quesadilla.ff30c2b3bb534cd3dc3a.jpg",
     "index.html": "/la_bella/index.html",
-    "main.b16d564d.css.map": "/la_bella/static/css/main.b16d564d.css.map",
-    "main.1abc0ac5.js.map": "/la_bella/static/js/main.1abc0ac5.js.map"
+    "main.9c0f9ee9.css.map": "/la_bella/static/css/main.9c0f9ee9.css.map",
+    "main.fd577c11.js.map": "/la_bella/static/js/main.fd577c11.js.map"
   },
   "entrypoints": [
-    "static/css/main.b16d564d.css",
-    "static/js/main.1abc0ac5.js"
+    "static/css/main.9c0f9ee9.css",
+    "static/js/main.fd577c11.js"
   ]
 }
