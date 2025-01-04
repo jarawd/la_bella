@@ -3,9 +3,12 @@ import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
 import Main from '../Main/Main';
 import { ProductContext } from '../../utils/context';
+import Popup from '../Popup/Popup';
 
 function App() {
   const [productsActive, setProductsActive] = useState(false);
+  const [popupActive, setPopupActive] = useState(false);
+  const [popupData, setPopupData] = useState({});
   const goToProducts = useRef(null);
   const goToBranches = useRef(null);
 
@@ -14,6 +17,9 @@ function App() {
     setProductsActive,
     goToProducts,
     goToBranches,
+    popupActive,
+    setPopupActive,
+    setPopupData,
   };
   return (
     <ProductContext.Provider value={contextVariables}>
@@ -21,6 +27,10 @@ function App() {
         <Header />
         <Hero />
         <Main />
+        <Popup
+          active={popupActive}
+          data={popupData}
+        />
       </div>
     </ProductContext.Provider>
   );

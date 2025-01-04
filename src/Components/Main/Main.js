@@ -17,12 +17,14 @@ export default function Main() {
         ref={goToProducts}
         className="products"
       >
+        <h2 className="section-title">Menú</h2>
         {products.map((item) => (
           <PS1
             key={item.id}
             title={item.title}
             img={item.image}
             description={item.description}
+            price={item.price}
           />
         ))}
       </section>
@@ -30,7 +32,7 @@ export default function Main() {
         ref={goToBranches}
         className="location"
       >
-        <h2 className="location-title">Sucursales</h2>
+        <h2 className="section-title">Sucursales</h2>
         {locations.map((item) => (
           <Branch
             key={item.id}
@@ -40,19 +42,6 @@ export default function Main() {
             schedule={item.schedule}
           />
         ))}
-      </section>
-      <section className="orders">
-        <h2 className="orders__title">Pedidos</h2>
-        <div className="orders__contact">
-          <p className="orders__number">
-            <FaWhatsapp className="orders__icon" />
-            871 123 45 67
-          </p>
-          <p className="orders__number">
-            <FaWhatsapp className="orders__icon" />
-            871 765 43 21
-          </p>
-        </div>
       </section>
     </div>
   );
