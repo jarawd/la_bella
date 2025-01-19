@@ -1,24 +1,24 @@
 .branch {
-  margin-bottom: 35px;
+  margin-top: 35px;
   display: grid;
   grid-template-areas:
-    "location map"
-    "direction map"
+    "name location"
+    "direction location"
     "schedule schedule";
   grid-template-columns: 70% 1fr;
   column-gap: 10px;
-  box-shadow: 0 1px 0 #222;
+  box-shadow: 0 1px 0 var(--dark-text);
   padding-bottom: 10px;
 }
 
-.branch__location,
+.branch__name,
 .branch__direction,
 .branch__schedule {
   margin: 0;
 }
 
-.branch__location {
-  grid-area: location;
+.branch__name {
+  grid-area: name;
   font-size: 18px;
 }
 
@@ -35,22 +35,23 @@
   margin-top: 15px;
 }
 
-.branch__map {
-  grid-area: map;
+.branch__location {
+  grid-area: location;
   display: flex;
   flex-direction: column;
   align-items: center;
   cursor: pointer;
 }
 
-.branch__map-icon {
+.branch__location-icon {
   font-size: 28px;
   margin-bottom: 7px;
-  color: #ea4335;
+  color: var(--icon-location-color);
 }
 
-.branch__map-link {
+.branch__location-link {
   text-decoration: none;
-  color: #222;
+  text-align: center;
+  color: var(--dark-text);
   font-weight: bold;
 }

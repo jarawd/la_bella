@@ -1,10 +1,11 @@
 .hero {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   height: 100vh;
   font-family: "Roboto" sans-serif;
-  color: #fff;
+  color: var(--light-color);
 }
 
 .hero__info {
@@ -13,13 +14,13 @@
   flex-direction: column;
   align-items: center;
   padding-left: 60px;
+  z-index: 1;
 }
 
 .hero__title {
   margin: 0;
   margin-top: 200px;
   margin-bottom: 35px;
-  /* text-shadow: 3px 3px 2px #940202; */
 }
 
 .hero__description {
@@ -34,10 +35,8 @@
   background-image: url(../../images/hero_quesadilla.jpg);
   background-size: cover;
   background-position: center;
-  filter: blur(2px);
   width: 100%;
   height: 100vh;
-  z-index: -1;
 }
 
 .hero__focused {
@@ -49,23 +48,19 @@
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  z-index: -1;
 }
 
 .hero__shadow {
   position: absolute;
   width: 100%;
   height: 100vh;
-  z-index: 1;
-  background-color: black;
-  opacity: .4;
-  z-index: -1;
+  background-color: var(--shadow-color);
+  opacity: .5;
 }
 
 @media screen and (max-width: 835px) {
   .hero__info {
     width: 80%;
-    margin: 0 auto;
     padding: 0;
   }
 }

@@ -30,6 +30,15 @@ html {
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  --primary-color: #f6de9b;
+  --secondary-color: #8c3333;
+  --secondary-color-hover: #652121;
+  --tertiary-color: yellow;
+  --about-background: #555;
+  --icon-location-color: #ea4335;
+  --dark-text: #222;
+  --light-color: #eee;
+  --shadow-color: black;
 }
 
 /* Secciones

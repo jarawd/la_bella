@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ProductContext } from '../../utils/context';
 
 export default function Hero() {
+  const { goStart } = useContext(ProductContext);
+
   return (
-    <div className="hero">
+    <div
+      className="hero"
+      ref={goStart}
+    >
       <div className="hero__info">
         <h1 className="hero__title">
           Quesadillas La Bella: Las Mejores de la Comarca Lagunera!

@@ -3,19 +3,24 @@
   display: none;
   flex-direction: column;
   align-items: center;
+  z-index: 3;
 }
 
-.popup,
-.popup__shadow {
+.popup {
   position: fixed;
-  top: -90px;
+  top: 90px;
   right: 0;
   bottom: 0;
   left: 0;
 }
 
 .popup__shadow {
-  background-color: #222;
+  position: fixed;
+  top: -90px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--dark-text);
   opacity: 0.6;
 }
 
@@ -25,10 +30,10 @@
   height: auto;
   color: #fff;
   text-align: center;
-  background-color: #8c3333;
+  background-color: var(--secondary-color);
   z-index: 1;
   border-radius: 15px;
-  box-shadow: 0 0 20px #222;
+  box-shadow: 0 0 20px var(--dark-text);
 }
 
 .popup__content-image {
@@ -51,7 +56,7 @@
   margin: 15px 0;
   font-size: 26px;
   font-weight: bold;
-  color: yellow;
+  color: var(--tertiary-color);
 }
 
 .popup__content-close {
