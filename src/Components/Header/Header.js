@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { ProductContext } from '../../utils/context';
 import logo from '../../images/logo.png';
@@ -7,32 +7,21 @@ import { IoMenu } from 'react-icons/io5';
 import { IoClose } from 'react-icons/io5';
 
 export default function Header() {
-  const { dropMenu, setMainActive, setAboutActive, setDropMenu, setGoUp } =
-    useContext(ProductContext);
-
-  const navigate = useNavigate();
+  const { dropMenu, setDropMenu, setGoUp } = useContext(ProductContext);
 
   const handleAbout = () => {
-    setMainActive(false);
-    setAboutActive(true);
     setDropMenu(false);
     setGoUp(false);
   };
 
   const handleProducts = () => {
-    setMainActive(true);
-    setAboutActive(false);
     setDropMenu(false);
     setGoUp(true);
-    navigate('/');
   };
 
   const handleBranches = () => {
-    setMainActive(true);
-    setAboutActive(false);
     setDropMenu(false);
     setGoUp(true);
-    navigate('/');
   };
 
   return (

@@ -4,13 +4,11 @@ import { ProductContext } from '../../utils/context';
 import Header from '../Header/Header';
 
 export default function About() {
-  const { setMainActive, setAboutActive, setGoUp } = useContext(ProductContext);
+  const { setGoUp } = useContext(ProductContext);
 
   const navigate = useNavigate();
 
   const goToHome = () => {
-    setMainActive(true);
-    setAboutActive(false);
     setGoUp(true);
     navigate('/');
   };

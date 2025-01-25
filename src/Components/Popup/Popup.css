@@ -30,6 +30,7 @@
   height: auto;
   color: #fff;
   text-align: center;
+  margin-top: 45px;
   background-color: var(--secondary-color);
   z-index: 1;
   border-radius: 15px;
